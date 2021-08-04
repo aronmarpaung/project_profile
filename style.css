@@ -1,0 +1,39 @@
+body { 
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper{
+    margin:auto;
+    padding: 0;
+    width:480px;
+    height: auto;
+    background: #eeeeee;
+}
+
+.dataprofile{
+    margin:auto;
+    background: #ba23f3;
+    color:#000000;
+    font-family: Segoe UI;
+    font-size:16px;
+
+}
+
+img.kanan {
+    float: right;
+    margin: 5px;
+	display:block; 
+    height: 260px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
